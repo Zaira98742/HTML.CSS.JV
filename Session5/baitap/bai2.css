@@ -1,0 +1,14 @@
+body {
+    padding: 25px;
+}
+.title {
+    color: #5C6AC4;
+}
+div {
+    background-color: black;
+}
+p {
+    color: Lime;
+    font-size: 20px;
+    font-family: Arial;
+}
