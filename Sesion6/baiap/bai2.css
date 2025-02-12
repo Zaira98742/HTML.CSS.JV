@@ -1,0 +1,23 @@
+html {
+    background-color: #f1f1f1;
+}
+.header{
+    text-align: center;
+}
+.all{
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+.body{
+    border-left: 15px solid white;
+}
+input[type=submit]{
+    width: 90%;
+    background-color: blue;
+    color: white;
+    padding: 10px 0;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
