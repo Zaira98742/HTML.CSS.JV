@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.outside {
+    width: 350px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px whitesmoke;
+    overflow: hidden;
+}
+
+.header {
+    background: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.hot-badge {
+    width: 50px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.content p {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+.buttons {
+    padding: 20px;
+    text-align: center;
+}
+
+.signin {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.detail{
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px;
+}

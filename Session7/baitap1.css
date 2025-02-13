@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background{
+    background-color:whitesmoke;
+    width: 35%;
+    padding: 10px;
+}
+
+.upline{
+    margin-left: 10px;
+}
+
+.buttonred{
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    width:150px;
+    height: 40px;
+    color: white;
+}
+
+.buttonwhite{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    border-color: lightgrey;
+}
+
