@@ -1,0 +1,15 @@
+p{
+    opacity: 0.5; 
+}
+
+.visable{
+    opacity: 0.5;
+}
+
+.border{
+    border-left: solid #615353;
+}
+
+.upscale{
+    padding-bottom: 60px;
+}
