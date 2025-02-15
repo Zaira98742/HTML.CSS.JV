@@ -1,38 +1,53 @@
-.container {
-    width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+*{
+    box-sizing: border-box;
+}
+.headding{
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    width: 68%;
+    height: auto;
+    border-top: 1px solid rgb(238, 232, 232);
+    border-right: 1px solid black;
+    padding: 0 40px 0 40px;
 }
-
-.article {
-    width: 48%;
-    border: 1px solid #ccc;
-    padding: 20px;
-    display: flex; /* Sử dụng flexbox cho article */
-    flex-direction: column; /* Xếp các phần tử con theo chiều dọc */
-    height: 100%; /* Đảm bảo chiều cao của article bằng nhau */
+.task1{
+    border-right: 1px solid rgb(238, 232, 232);
+    padding: 80px;
 }
-
-.date {
-    font-size: 0.8em;
-    color: #888;
-    margin-bottom: 10px;
+.task1 h1{
+  letter-spacing: 3px;
 }
-
-.title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
+.task1 h1{
+  letter-spacing: 3px;
+.task2{
+    padding: 0 100px 0 100px;
 }
-
-.content {
-    margin-bottom: 20px;
-    flex-grow: 1; /* Cho phép content chiếm phần còn lại của article */
+.task1{
+    padding: 0 100px 0 100px;
 }
-
-.read-more {
-    color: blue;
-    text-decoration: none;
+}
+.task2 .task2_text{
+    width: 500px;
+    text-align: left;
+    line-height: 40px;
+    opacity: 0.5;
+}
+.task2_text button{
+    text-align: center;
+}
+.task2 button{
+  width: 140px;
+  height: 40px;
+  background-color: white;
+}
+.task1 button{
+  width: 140px;
+  height: 40px;
+  background-color: white;
+}
+.task1 .task1_text{
+    width: 500px;
+    text-align: left;
+    line-height: 40px;
+    opacity: 0.5;
 }
