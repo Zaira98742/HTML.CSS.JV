@@ -1,33 +1,22 @@
-body{
-  padding: 25px;
-}
-.title {
-	color: #5C6AC4;
-}
 *{
     box-sizing: border-box;
 }
-.main .line{
-    display: block;
-    width: 100px;
-    border-bottom: 1px solid gray;
-    margin: 10px auto;
-}
 .header{
-    width: 30%;
+    width: 40%;
     text-align: center;
     background-color: whitesmoke;
     position: relative;
-    opacity: 0.5;
+    opacity: 0.6;
 }
  .button button{
-    margin-top: 30px;
+    margin-top: 20px;
     width: 130px;
     height: 40px;
     border-radius: 8px;
 }
-.text{
-    padding-bottom: 15px;
+.Download{
+    background-color:	rgb(0, 64, 255);
+    color: wheat;
 }
 .footer {
     display: inline-block;
@@ -36,16 +25,15 @@ body{
 .footer p i {
     margin: 0 10px;
 }
+.text{
+    padding-bottom: 15px;
+}
 .fot{
-    background-color: whitesmoke ;
-} 
+    background-color: rgb(230, 235, 235);
+}
 .main .line{
     display: block;
-    width: 100px;
+    width: 70px;
     border-bottom: 1px solid gray;
     margin: 10px auto;
-}
-.Download{
-    background-color: blue;
-    color: wheat;
 }
