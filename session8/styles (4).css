@@ -1,0 +1,51 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+*{
+    box-sizing: border-box;
+}
+.main .line{
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid gray;
+    margin: 10px auto;
+}
+.header{
+    width: 30%;
+    text-align: center;
+    background-color: whitesmoke;
+    position: relative;
+    opacity: 0.5;
+}
+ .button button{
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+}
+.text{
+    padding-bottom: 15px;
+}
+.footer {
+    display: inline-block;
+    margin-top: 10px;
+}
+.footer p i {
+    margin: 0 10px;
+}
+.fot{
+    background-color: whitesmoke ;
+} 
+.main .line{
+    display: block;
+    width: 100px;
+    border-bottom: 1px solid gray;
+    margin: 10px auto;
+}
+.Download{
+    background-color: blue;
+    color: wheat;
+}
