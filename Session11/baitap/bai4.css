@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+
+.header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.row4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+.headbox {
+    background-color: orange;
+    height: 100px;
+    flex: 1;
+}
+
+.bigbox {
+    background-color: yellow;
+    height: 150px;
+    width: 100%;
+}
+
+.midderbox {
+    background-color: aqua;
+    height: 120px;
+    flex: 1;
+}
+
+.footerbox {
+    background-color: lightgrey;
+    height: 80px;
+    flex: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .row1 .headbox {
+        width: 48%;
+    }
+
+    .row3 .midderbox {
+        width: 48%;
+    }
+
+    .row4 .footerbox {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .row1 .headbox {
+        width: 48%;
+    }
+
+    .row3 .midderbox {
+        width: 32%;
+    }
+
+    .row4 .footerbox {
+        width: 24%;
+    }
+}
