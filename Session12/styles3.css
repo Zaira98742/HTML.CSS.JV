@@ -1,0 +1,28 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.header{
+    text-align: center;
+}
+.container{
+    background: lightgrey;
+    padding: 20px;
+}
+.header{
+    background-color: white
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.mb-3{
+    padding: 10px;
+}
+.btn{
+    margin: 10px;
+}

@@ -1,0 +1,13 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+.dropdown-item{
+    background-color: red;
+}
+
+.dropdown-item:hover{
+    background-color: blue;
+}
