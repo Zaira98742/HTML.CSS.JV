@@ -6,7 +6,7 @@ function formatDates(dates) {
     return "Mang khong co phan tu nao";
   }
   return dates.map(dateStr => {
-    const [year, month, day] = dateStr.split("-");
+    let [year, month, day] = dateStr.split("-");
     return `${day}/${month}/${year}`;
   });
 }
