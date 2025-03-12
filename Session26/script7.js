@@ -5,7 +5,7 @@ function binhPhuongVaLocChan(mang) {
   if (mang.length === 0) {
     return "Mang khong co du lieu";
   }
-  const ketQua = mang
+  let ketQua = mang
     .map((so) => so * so)
     .filter((soBinhPhuong) => soBinhPhuong % 2 === 0);
 
