@@ -1,0 +1,27 @@
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+#toggleBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+body.light-mode .container {
+  background-color: white;
+  color: black;
+}
+body.light-mode #toggleBtn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}

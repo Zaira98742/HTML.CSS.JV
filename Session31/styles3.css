@@ -1,0 +1,19 @@
+#container {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+#color-boxes {
+  display: flex;
+  margin-top: 20px;
+}
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.green { background-color: green; }
+.red { background-color: red; }
+.purple { background-color: purple; }
