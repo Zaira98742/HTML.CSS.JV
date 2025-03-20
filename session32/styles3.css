@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+#subjectList {
+  list-style-type: decimal;
+}

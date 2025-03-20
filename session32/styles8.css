@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+.input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+#taskInput {
+  flex-grow: 1;
+  padding: 5px;
+}
+#addBtn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+.editBtn, .deleteBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
