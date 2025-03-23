@@ -1,0 +1,21 @@
+.weather-app {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+#cityInput {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#searchButton {
+  padding: 5px 10px;
+}
+.weather-info {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
