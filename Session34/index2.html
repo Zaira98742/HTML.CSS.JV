@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Management</h1>
+    <form id="taskForm">
+      <input type="text" id="content" placeholder="Content">
+      <input type="date" id="dueDate">
+      <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+      <input type="text" id="assignedTo" placeholder="Username">
+      <button type="submit">Submit</button>
+    </form>
+    <table id="taskList">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Content</th>
+          <th>Due date</th>
+          <th>Status</th>
+          <th>Assigned to</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script src="script2.js"></script>
+</body>
+</html>
